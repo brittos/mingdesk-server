@@ -16,3 +16,7 @@ jobs:
   Build_Windows_binaries:
     uses: ./.github/workflows/windows.yml
     secrets: inherit
+  
+  Build_Ubuntu_binaries:
+    uses: ./.github/workflows/ubuntu.yml
+    secrets: inherit
